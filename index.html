@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sprout</title>
+        <meta name="description" content="Help a little sprout grow from bean to plant">
+        <meta property="og:title" content="Sprout">
+        <meta property="og:description" content="Help a little sprout grow from bean to plant">
+        <meta property="og:image" content="https://sprout.maelbrunet.com/thumbnail.jpg">
+        <meta property="og:url" content="https://sprout.maelbrunet.com">
+        <meta name="twitter:card" content="summary_large_image">
+        <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./assets/main.css" type="text/css" rel="stylesheet">
+    </head>
+<body>
+    <div class="step"><span id="current-step"></span>/6</div>
+    <div class="page-wrapper">
+        <div class="img-wrapper">
+            <img id="sprout-img" src="./assets/img/bean-1.jpg" alt="sprout" draggable=”false” />
+            <p id="waiting-message">Growing takes time... Try coming back a bit later.</p>
+        </div>
+    </div>
+    <button id="about-button">About</button>
+    <dialog id="about-info">
+        <button id="about-close"><img src="./assets/img/close.svg" alt="close" height="15px" width="15px" /></button>
+        <p>Concept & code : <a href="http://maelbrunet.com">Maël Brunet</a></p>
+        <p>Illustrations : Fatima Morales</p>
+    </dialog>
+
+    <script src="./index.js"></script>
+</body>
+</html>
